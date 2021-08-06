@@ -9,16 +9,16 @@ var background_image = "parkingLot.jpg";
 var greencar_image = "car2.png";
 
 //Set initial position for a car image.
-var car_x = 5;
-var car_y = 255;
+var car_x = 20;
+var car_y = 325;
 
 function add() {
 	//upload car, and background images on the canvas.
-	var background_imageTag = new Image();
+	background_imageTag = new Image();
 	background_imageTag.onload = uploadBackground;
 	background_imageTag.src = background_image;
 
-	var greencar_imageTag = new Image();
+	greencar_imageTag = new Image();
 	greencar_imageTag.onload = uploadgreencar;
 	greencar_imageTag.src = greencar_image;
 }
